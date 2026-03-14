@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recursion — Your Codebase, Upgraded With AI</title>
+  <meta name="description" content="Recursion redesigns how companies develop software by embedding AI directly into their codebase and engineering workflows.">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- BACKGROUND ORBS -->
+  <div class="bg-orbs">
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo"><img src="logo.svg" alt="Recursion" class="nav-logo-icon">Recursion</a>
+      <div class="nav-links">
+        <a href="#model">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#cta" class="btn btn-sm btn-primary">Get Started</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu">
+    <a href="#model">How It Works</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#cta" class="btn btn-sm btn-primary">Get Started</a>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-badge reveal">
+        <span class="hero-badge-dot"></span>
+        AI Development Engine
+      </div>
+      <h1 class="hero-title reveal">Your Codebase,<br><span class="gradient-text">Upgraded With AI</span></h1>
+      <p class="hero-subtitle reveal">We build AI systems that help your software build itself — then operate them as a managed service.</p>
+      <div class="hero-taglines reveal">
+        <p>Not another tool. Not another assistant.</p>
+        <p class="hero-highlight">A development engine that compounds over time.</p>
+      </div>
+      <div class="hero-ctas reveal">
+        <a href="#cta" class="btn btn-primary btn-lg btn-glow">Get Started</a>
+        <a href="#model" class="btn btn-secondary btn-lg">See How It Works</a>
+      </div>
+    </div>
+  </header>
+
+  <hr class="section-divider">
+
+  <!-- ===================== THE PROBLEM ===================== -->
+  <section class="section" id="problem">
+    <div class="container container-narrow center-text">
+      <p class="section-label reveal">The Problem</p>
+      <h2 class="section-title reveal">Engineering teams don't scale<br>by hiring more engineers.</h2>
+      <p class="section-subtitle reveal">They scale by building better systems.</p>
+
+      <div class="flow-diagram reveal">
+        <div class="flow-node" data-detail="Manual coding, slow iteration">Human-written code</div>
+        <span class="flow-arrow-icon">&rarr;</span>
+        <div class="flow-node" data-detail="AI handles boilerplate & repetition">AI-accelerated systems</div>
+        <span class="flow-arrow-icon">&rarr;</span>
+        <div class="flow-node" data-detail="The system improves itself">Self-improving infra</div>
+      </div>
+
+      <div class="stat-counter gradient-text reveal" id="counter-engineers">10&times;</div>
+      <p class="body-text center-text reveal">One engineer maintains what used to require ten.</p>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ===================== OUR BET ===================== -->
+  <section class="section" id="bet">
+    <div class="container container-narrow">
+      <p class="section-label reveal">Our Bet</p>
+      <h2 class="section-title reveal">We build for where AI is going —<br>not where it is today.</h2>
+      <p class="body-text reveal">Systems designed for today's models become obsolete in months. We design for what's next.</p>
+
+      <div class="timeline-bar-container reveal">
+        <div class="timeline-bar">
+          <div class="timeline-bar-label"><span>Reasoning</span><strong>Today</strong></div>
+          <div class="timeline-bar-track"><div class="timeline-bar-fill" data-width="35%"></div></div>
+        </div>
+        <div class="timeline-bar">
+          <div class="timeline-bar-label"><span>Code understanding</span><strong>Today</strong></div>
+          <div class="timeline-bar-track"><div class="timeline-bar-fill" data-width="40%"></div></div>
+        </div>
+        <div class="timeline-bar">
+          <div class="timeline-bar-label"><span>Context windows</span><strong>Today</strong></div>
+          <div class="timeline-bar-track"><div class="timeline-bar-fill" data-width="30%"></div></div>
+        </div>
+        <div class="timeline-bar">
+          <div class="timeline-bar-label"><span>Autonomy</span><strong>Today</strong></div>
+          <div class="timeline-bar-track"><div class="timeline-bar-fill" data-width="20%"></div></div>
+        </div>
+      </div>
+      <p class="body-text highlight-text center-text reveal">When models improve, your system improves automatically.</p>
+      <p class="body-text center-text muted reveal">We build for the world 3–5 years from now.</p>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ===================== WHAT WE BUILD ===================== -->
+  <section class="section" id="what">
+    <div class="container">
+      <div class="center-text">
+        <p class="section-label reveal">What We Build</p>
+        <h2 class="section-title reveal">AI embedded directly into how<br>your company ships software.</h2>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-card glass-card reveal">
+          <span class="stat-card-icon">&#8595;</span>
+          <div class="stat-card-value gradient-text">50%</div>
+          <div class="stat-card-label">Shorter dev cycles</div>
+        </div>
+        <div class="stat-card glass-card reveal">
+          <span class="stat-card-icon">&#10005;</span>
+          <div class="stat-card-value gradient-text">80%</div>
+          <div class="stat-card-label">Less repetitive work</div>
+        </div>
+        <div class="stat-card glass-card reveal">
+          <span class="stat-card-icon">&#8593;</span>
+          <div class="stat-card-value gradient-text">10&times;</div>
+          <div class="stat-card-label">Feature output</div>
+        </div>
+        <div class="stat-card glass-card reveal">
+          <span class="stat-card-icon">&#x21bb;</span>
+          <div class="stat-card-value gradient-text">&infin;</div>
+          <div class="stat-card-label">Self-improving system</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ===================== THE 4 STAGES (FLIP CARDS) ===================== -->
+  <section class="section" id="model">
+    <div class="container">
+      <div class="center-text">
+        <p class="section-label reveal">The Recursion Model</p>
+        <h2 class="section-title reveal">Four stages. One compound loop.</h2>
+        <p class="body-text center-text reveal muted">Click each card to explore.</p>
+      </div>
+      <div class="flip-grid">
+
+        <!-- Card 1: Integrate -->
+        <div class="flip-card reveal-scale" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="flip-card-number">01</div>
+              <div>
+                <div class="flip-card-title">Integrate</div>
+                <div class="flip-card-teaser">Plug into your engineering stack.</div>
+              </div>
+              <div class="flip-card-hint">&#x21bb; Click to explore</div>
+            </div>
+            <div class="flip-card-back">
+              <h4>Deep Integration</h4>
+              <p>We connect directly to your repositories, CI/CD pipelines, issue trackers, documentation, and internal tools.</p>
+              <div class="tag-row">
+                <span class="tag">Repositories</span>
+                <span class="tag">CI/CD</span>
+                <span class="tag">Issue trackers</span>
+                <span class="tag">Docs</span>
+                <span class="tag">Internal tools</span>
+              </div>
+              <p><strong>Your codebase becomes AI-readable infrastructure.</strong></p>
+              <div class="back-close-hint">&#x21bb; Click to flip back</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Understand -->
+        <div class="flip-card reveal-scale" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="flip-card-number">02</div>
+              <div>
+                <div class="flip-card-title">Understand</div>
+                <div class="flip-card-teaser">Talk to your codebase.</div>
+              </div>
+              <div class="flip-card-hint">&#x21bb; Click to explore</div>
+            </div>
+            <div class="flip-card-back">
+              <h4>Codebase Intelligence</h4>
+              <p>Ask questions like: "Where does this logic live?", "What breaks if we change this schema?", "Generate a feature from this spec."</p>
+              <p><strong>Real code, real context, real understanding.</strong></p>
+              <div class="back-close-hint">&#x21bb; Click to flip back</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Accelerate -->
+        <div class="flip-card reveal-scale" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="flip-card-number">03</div>
+              <div>
+                <div class="flip-card-title">Accelerate</div>
+                <div class="flip-card-teaser">Ship 10&times; more in the same time.</div>
+              </div>
+              <div class="flip-card-hint">&#x21bb; Click to explore</div>
+            </div>
+            <div class="flip-card-back">
+              <h4>AI Development Flywheel</h4>
+              <p>The system generates scaffolding, writes tests, reviews PRs, debugs failures, generates docs, and automates repetitive work.</p>
+              <p><strong>Your team ships 10&times; more features.</strong></p>
+              <div class="back-close-hint">&#x21bb; Click to flip back</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Recursion -->
+        <div class="flip-card reveal-scale" onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="flip-card-number">04</div>
+              <div>
+                <div class="flip-card-title">Recursion</div>
+                <div class="flip-card-teaser">The system improves itself.</div>
+              </div>
+              <div class="flip-card-hint">&#x21bb; Click to explore</div>
+            </div>
+            <div class="flip-card-back">
+              <h4>Compound Output</h4>
+              <p>AI builds tools that speed up development. Those tools help build even better tools. The output compounds.</p>
+              <p><strong>That's recursion.</strong></p>
+              <div class="back-close-hint">&#x21bb; Click to flip back</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ===================== FLYWHEEL (ORBITAL) ===================== -->
+  <section class="section" id="flywheel">
+    <div class="container">
+      <div class="center-text">
+        <p class="section-label reveal">The Flywheel</p>
+        <h2 class="section-title reveal">Each cycle increases leverage.</h2>
+      </div>
+
+      <div class="flywheel-orbital reveal-scale">
+        <div class="flywheel-ring"></div>
+        <div class="flywheel-ring-glow"></div>
+        <div class="flywheel-node" data-index="0">Codebase + Context</div>
+        <div class="flywheel-node" data-index="1">AI understands architecture</div>
+        <div class="flywheel-node" data-index="2">Builds dev tools</div>
+        <div class="flywheel-node" data-index="3">Development accelerates</div>
+        <div class="flywheel-node" data-index="4">More tools built</div>
+        <div class="flywheel-node" data-index="5">System improves itself</div>
+        <div class="flywheel-center">
+          <div class="flywheel-center-label">Recursion</div>
+          <div class="flywheel-center-text gradient-text">&#x221E;</div>
+        </div>
+      </div>
+      <p class="flywheel-caption reveal">The more it runs, the faster it gets.</p>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ===================== HOW WE WORK ===================== -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="center-text">
+        <p class="section-label reveal">How We Work</p>
+        <h2 class="section-title reveal">End-to-end. No handoff.</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-card glass-card reveal">
+          <span class="process-num">01</span>
+          <h3>Diagnose</h3>
+          <p>We map where time is wasted and where humans are doing machine work.</p>
+        </div>
+        <div class="process-card glass-card reveal">
+          <span class="process-num">02</span>
+          <h3>Design</h3>
+          <p>We redesign your workflow around AI. Every automation and edge case defined.</p>
+        </div>
+        <div class="process-card glass-card reveal">
+          <span class="process-num">03</span>
+          <h3>Deploy</h3>
+          <p>We integrate into your stack and ship the system. Fully tested before go-live.</p>
+        </div>
+        <div class="process-card glass-card reveal">
+          <span class="process-num">04</span>
+          <h3>Run</h3>
+          <p>We operate continuously. Monitoring. Maintaining. Improving.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ===================== STACK COMPATIBILITY (MARQUEE) ===================== -->
+  <section class="section" id="stack">
+    <div class="container center-text">
+      <p class="section-label reveal">Your Stack, Supercharged</p>
+      <h2 class="section-title reveal">No new platforms. Just faster.</h2>
+    </div>
+    <div class="marquee-wrapper">
+      <div class="marquee-track">
+        <div class="marquee-item">GitHub</div>
+        <div class="marquee-item">GitLab</div>
+        <div class="marquee-item">Linear</div>
+        <div class="marquee-item">Jira</div>
+        <div class="marquee-item">CI/CD Pipelines</div>
+        <div class="marquee-item">Internal Docs</div>
+        <div class="marquee-item">Data Stores</div>
+        <div class="marquee-item">GitHub</div>
+        <div class="marquee-item">GitLab</div>
+        <div class="marquee-item">Linear</div>
+        <div class="marquee-item">Jira</div>
+        <div class="marquee-item">CI/CD Pipelines</div>
+        <div class="marquee-item">Internal Docs</div>
+        <div class="marquee-item">Data Stores</div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ===================== FIT SECTION ===================== -->
+  <section class="section" id="fit">
+    <div class="container">
+      <div class="center-text">
+        <p class="section-label reveal">Is It a Fit?</p>
+        <h2 class="section-title reveal">We work with teams ready to rethink<br>how software is built.</h2>
+      </div>
+      <div class="fit-grid">
+        <div class="fit-card fit-card-yes glass-card reveal">
+          <h3><span style="font-size:1.25rem;">&#10003;</span> Great Fit</h3>
+          <ul>
+            <li>Large existing codebase</li>
+            <li>Product team shipping constantly</li>
+            <li>Want velocity without doubling headcount</li>
+            <li>Believe AI will reshape development</li>
+          </ul>
+        </div>
+        <div class="fit-card fit-card-no glass-card reveal">
+          <h3><span style="font-size:1.25rem;">&#10007;</span> Not a Fit</h3>
+          <ul>
+            <li>Mostly off-the-shelf tools</li>
+            <li>No meaningful codebase yet</li>
+            <li>Looking for a chatbot add-on</li>
+            <li>Team resistant to workflow change</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ===================== PRICING ===================== -->
+  <section class="section" id="pricing">
+    <div class="container container-narrow">
+      <div class="center-text">
+        <p class="section-label reveal">Pricing</p>
+        <h2 class="section-title reveal">Managed AI development service.</h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card glass-card reveal-scale">
+          <h3>Integration</h3>
+          <div class="pricing-amount gradient-text">&euro;20k – &euro;50k</div>
+          <div class="pricing-term">one-time</div>
+          <ul class="pricing-features">
+            <li>Codebase analysis</li>
+            <li>Workflow redesign</li>
+            <li>Initial AI system deployment</li>
+          </ul>
+        </div>
+        <div class="pricing-card pricing-card-highlight glass-card reveal-scale">
+          <h3>Managed Operation</h3>
+          <div class="pricing-amount gradient-text">&euro;10k – &euro;40k</div>
+          <div class="pricing-term">per month</div>
+          <ul class="pricing-features">
+            <li>Continuous monitoring</li>
+            <li>AI workflow maintenance</li>
+            <li>Performance improvements</li>
+            <li>New automations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ===================== FINAL CTA ===================== -->
+  <section class="section section-cta" id="cta">
+    <div class="container container-narrow center-text">
+      <h2 class="cta-title reveal"><span class="gradient-text">Let's build the future</span><br>of your engineering team.</h2>
+      <p class="cta-desc reveal">If you believe software teams will look fundamentally different in five years, we should talk. Recursion helps you start that transition today.</p>
+      <a href="mailto:hello@recursion.dev" class="btn btn-primary btn-lg btn-glow reveal">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo"><img src="logo.svg" alt="Recursion" class="footer-logo-icon">Recursion</span>
+      <span class="footer-copy">&copy; 2026 Recursion. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- ===================== MOTION.DEV ANIMATIONS ===================== -->
+  <script type="module">
+    import { animate, inView, scroll, stagger } from 'https://cdn.jsdelivr.net/npm/motion@11.11.13/+esm';
+
+    // --- Scroll-triggered reveals ---
+    document.querySelectorAll('.reveal').forEach(el => {
+      inView(el, () => {
+        animate(el, { opacity: [0, 1], transform: ['translateY(30px)', 'translateY(0)'] }, { duration: 0.7, easing: [0.25, 0.1, 0.25, 1] });
+      }, { margin: '-50px' });
+    });
+
+    document.querySelectorAll('.reveal-left').forEach(el => {
+      inView(el, () => {
+        animate(el, { opacity: [0, 1], transform: ['translateX(-40px)', 'translateX(0)'] }, { duration: 0.7, easing: [0.25, 0.1, 0.25, 1] });
+      }, { margin: '-50px' });
+    });
+
+    document.querySelectorAll('.reveal-scale').forEach(el => {
+      inView(el, () => {
+        animate(el, { opacity: [0, 1], transform: ['scale(0.92)', 'scale(1)'] }, { duration: 0.6, easing: [0.25, 0.1, 0.25, 1] });
+      }, { margin: '-50px' });
+    });
+
+    // --- Staggered stat cards ---
+    const statCards = document.querySelectorAll('.stat-card');
+    if (statCards.length) {
+      inView(statCards[0], () => {
+        animate(statCards, { opacity: [0, 1], transform: ['translateY(30px)', 'translateY(0)'] }, { delay: stagger(0.12), duration: 0.6, easing: [0.25, 0.1, 0.25, 1] });
+      }, { margin: '-50px' });
+    }
+
+    // --- Staggered process cards ---
+    const processCards = document.querySelectorAll('.process-card');
+    if (processCards.length) {
+      inView(processCards[0], () => {
+        animate(processCards, { opacity: [0, 1], transform: ['translateY(30px)', 'translateY(0)'] }, { delay: stagger(0.1), duration: 0.6, easing: [0.25, 0.1, 0.25, 1] });
+      }, { margin: '-50px' });
+    }
+
+    // --- Progress bars animation ---
+    document.querySelectorAll('.timeline-bar-fill').forEach(bar => {
+      const target = bar.dataset.width;
+      inView(bar, () => {
+        // Animate to current, then to full
+        animate(bar, { width: ['0%', target] }, { duration: 1, easing: [0.25, 0.1, 0.25, 1] }).finished.then(() => {
+          animate(bar, { width: [target, '100%'] }, { duration: 0.8, delay: 0.3, easing: [0.25, 0.1, 0.25, 1] });
+          // Update label to "2029"
+          const label = bar.closest('.timeline-bar').querySelector('strong');
+          setTimeout(() => { label.textContent = '2029'; label.style.color = '#8B5CF6'; }, 800);
+        });
+      }, { margin: '-30px' });
+    });
+
+    // --- Interactive flow nodes ---
+    document.querySelectorAll('.flow-node').forEach(node => {
+      node.addEventListener('click', () => {
+        document.querySelectorAll('.flow-node').forEach(n => n.classList.remove('active'));
+        node.classList.toggle('active');
+      });
+    });
+
+    // --- Flywheel node sequential highlight ---
+    const flywheelNodes = document.querySelectorAll('.flywheel-node');
+    if (flywheelNodes.length) {
+      let currentFlywheel = 0;
+      const cycleFlywheel = () => {
+        flywheelNodes.forEach(n => n.classList.remove('active'));
+        flywheelNodes[currentFlywheel].classList.add('active');
+        currentFlywheel = (currentFlywheel + 1) % flywheelNodes.length;
+      };
+      inView(document.querySelector('.flywheel-orbital'), () => {
+        cycleFlywheel();
+        const interval = setInterval(cycleFlywheel, 1500);
+        return () => clearInterval(interval);
+      }, { margin: '-100px' });
+    }
+
+    // --- Nav scroll effect ---
+    const nav = document.querySelector('.nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    });
+  </script>
+
+  <!-- NON-MODULE SCRIPTS (mobile menu, smooth scroll) -->
+  <script>
+    // Mobile menu
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.mobile-menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('open');
+        toggle.classList.remove('active');
+      });
+    });
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
